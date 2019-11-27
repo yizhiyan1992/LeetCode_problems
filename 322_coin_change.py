@@ -1,5 +1,6 @@
 #speed only beats 34%, slow
 # Note: don't forget to create an inital case, where coin_0=0
+#corner case: amount==0
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
         if amount==0: return 0
