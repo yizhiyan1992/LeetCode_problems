@@ -10,3 +10,5 @@ class Solution:
                 DP[i]=min(DP[i],DP[i-square*square]+1)
                 square+=1
         return DP[-1]
+
+A=[]
